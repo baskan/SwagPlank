@@ -94,7 +94,7 @@ namespace SwagPlank
             buffs.Add(BuffType.Charm);
 
             Drawing.OnDraw += OnDraw;
-            Game.OnGameUpdate += OnGameUpdate;
+            Game.OnUpdate += OnGameUpdate;
         }
 
         private static void OnDraw(EventArgs args)
