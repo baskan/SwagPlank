@@ -25,7 +25,7 @@ namespace SwagPlank
 
         static void Main(string[] args)
         {
-            CustomEvents.Game.OnGameLoad += OnGameLoad;
+            CustomEvents.Game.GameLoad += OnGameLoad;
         }
 
         private static void OnGameLoad(EventArgs args)
